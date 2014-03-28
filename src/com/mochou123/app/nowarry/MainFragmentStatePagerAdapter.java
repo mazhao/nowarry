@@ -3,6 +3,8 @@ package com.mochou123.app.nowarry;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.mochou123.app.nowarry.app.AppFragment;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
