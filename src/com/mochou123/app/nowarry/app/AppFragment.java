@@ -27,8 +27,8 @@ public class AppFragment extends BaseFragment {
 		LinearLayout headerView = (LinearLayout)inflater.inflate(R.layout.fragment_app_header, null);
 		listView.addHeaderView(headerView);
 		
-		
-		listView.setAdapter( new AppAdapter(inflater) );
+		// fnflater for row layout; this for launching app
+		listView.setAdapter( new AppAdapter(inflater, this) );
 		
         return rootView;
    }
