@@ -99,6 +99,10 @@ public class AppAdapter extends BaseAdapter {
 			public void onClick(View v) {
 				Log.d(AppAdapter.class.getName(),
 						"open help button clicked for " + appName);
+				
+				Intent intent = new Intent(fragment.getActivity().getApplicationContext(), AppHelpActivity.class);
+				fragment.startActivity(intent);
+				
 			}
 		});
 		

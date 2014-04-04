@@ -5,9 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <!-- Action Bar area  -->
+    <!-- Action Bar area -->
     <string name="actionBar_tab_app_name">怎么用</string>
     <string name="actionBar_tab_recommand_name">好应用</string>
     <string name="actionBar_tab_personal_name">我自己</string>
-    
+    <string name="title_activity_app_help">AppHelpActivity</string>
+
 </resources>

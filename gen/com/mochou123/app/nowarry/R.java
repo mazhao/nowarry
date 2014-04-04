@@ -978,8 +978,13 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
-        public static final int weibo=0x7f020058;
-        public static final int weichat=0x7f020059;
+        public static final int wechat_help_1=0x7f020058;
+        public static final int wechat_help_2=0x7f020059;
+        public static final int wechat_help_3=0x7f02005a;
+        public static final int wechat_help_4=0x7f02005b;
+        public static final int wechat_help_5=0x7f02005c;
+        public static final int weibo=0x7f02005d;
+        public static final int weichat=0x7f02005e;
     }
     public static final class id {
         public static final int action_bar=0x7f05001a;
@@ -995,18 +1000,20 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f05002f;
         public static final int action_mode_bar_stub=0x7f05002e;
         public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f05004c;
+        public static final int action_settings=0x7f05004e;
         public static final int activity_chooser_view_content=0x7f050023;
         public static final int always=0x7f05000b;
-        public static final int appDescriptionTextView=0x7f05004b;
-        public static final int appHeaderImageView=0x7f050044;
-        public static final int appHeaderTextView=0x7f050045;
-        public static final int appHelpButton=0x7f050049;
-        public static final int appImageView=0x7f050047;
-        public static final int appListView=0x7f050043;
-        public static final int appListViewRow=0x7f050046;
-        public static final int appNameTextView=0x7f050048;
-        public static final int appOpenButton=0x7f05004a;
+        public static final int appDescriptionTextView=0x7f05004d;
+        public static final int appHeaderImageView=0x7f050045;
+        public static final int appHeaderTextView=0x7f050046;
+        public static final int appHelpButton=0x7f05004b;
+        public static final int appHelpImageView=0x7f050047;
+        public static final int appHelper=0x7f050042;
+        public static final int appImageView=0x7f050049;
+        public static final int appListView=0x7f050044;
+        public static final int appListViewRow=0x7f050048;
+        public static final int appNameTextView=0x7f05004a;
+        public static final int appOpenButton=0x7f05004c;
         public static final int beginning=0x7f050011;
         public static final int checkbox=0x7f05002b;
         public static final int collapseActionView=0x7f05000d;
@@ -1030,7 +1037,7 @@ containing a value of this type.
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int pager=0x7f050042;
+        public static final int pager=0x7f050043;
         public static final int progress_circular=0x7f050034;
         public static final int progress_horizontal=0x7f050035;
         public static final int radio=0x7f05002d;
@@ -1110,17 +1117,20 @@ containing a value of this type.
         public static final int abc_screen=0x7f030015;
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
-        public static final int activity_main=0x7f030018;
-        public static final int fragment_app=0x7f030019;
-        public static final int fragment_app_header=0x7f03001a;
-        public static final int fragment_app_row=0x7f03001b;
-        public static final int fragment_main=0x7f03001c;
-        public static final int fragment_personal=0x7f03001d;
-        public static final int fragment_recommand=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int activity_app_help=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int fragment_app=0x7f03001a;
+        public static final int fragment_app_header=0x7f03001b;
+        public static final int fragment_app_help=0x7f03001c;
+        public static final int fragment_app_row=0x7f03001d;
+        public static final int fragment_main=0x7f03001e;
+        public static final int fragment_personal=0x7f03001f;
+        public static final int fragment_recommand=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int app_help=0x7f0c0000;
+        public static final int main=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1163,7 +1173,7 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        /**  Action Bar area  
+        /**  Action Bar area 
          */
         public static final int actionBar_tab_app_name=0x7f0a0010;
         public static final int actionBar_tab_personal_name=0x7f0a0012;
@@ -1171,6 +1181,7 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
+        public static final int title_activity_app_help=0x7f0a0013;
     }
     public static final class style {
         /** 
