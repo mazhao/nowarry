@@ -1,9 +1,9 @@
 package com.mochou123.app.nowarry.app;
 
-import com.mochou123.app.nowarry.BaseFragment;
 import com.mochou123.app.nowarry.R;
 import com.mochou123.app.nowarry.R.layout;
 import com.mochou123.app.nowarry.R.string;
+import com.mochou123.app.nowarry.base.BaseFragment;
 
 import android.graphics.Color;
 import android.os.Bundle;

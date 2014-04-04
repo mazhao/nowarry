@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.mochou123.app.nowarry.app.AppFragment;
+import com.mochou123.app.nowarry.base.BaseFragment;
+import com.mochou123.app.nowarry.personal.PersonalFragment;
+import com.mochou123.app.nowarry.recommand.RecommandFragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

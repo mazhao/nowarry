@@ -1,4 +1,4 @@
-package com.mochou123.app.nowarry;
+package com.mochou123.app.nowarry.base;
 
 import android.support.v4.app.Fragment;
 
