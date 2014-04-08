@@ -9,8 +9,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 
+import javax.xml.bind.JAXBException;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.github.fedy2.weather.YahooWeatherService;
+import com.github.fedy2.weather.data.Channel;
+import com.github.fedy2.weather.data.unit.DegreeUnit;
 
 import android.util.Log;
 
@@ -71,6 +77,19 @@ public class WeatherUtil {
 
 	public static String getWeatherByCityName(String cityName) {
 		String woeid = WeatherUtil.getWoeid(cityName);
+		
+		try {
+			YahooWeatherService yws = new YahooWeatherService();
+			Channel channel = yws.getForecast(woeid, DegreeUnit.CELSIUS);
+			Log.d(WeatherUtil.class.getName(), "channel:" + channel);
+		} catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		return WeatherUtil.getWeatherByWoeid(woeid);
 	}
 
