@@ -164,7 +164,7 @@ public class AppFragment extends BaseFragment implements OnGeocodeSearchListener
 			new Thread(new Runnable() {
 				@Override
 				public void run() {
-					WeatherUtil.getWoeid(address.getCity());
+					WeatherUtil.getWeatherByCityName(address.getCity());
 				}
 			}).start();
 

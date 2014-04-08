@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    version="2.0" >
+
+    <channel>
+
+        <title>
+			Yahoo! Weather - Hangzhou, CN
+        </title>
+
+        <link>
+			http://us.rd.yahoo.com/dailynews/rss/weather/Hangzhou__CN/*http://weather.yahoo.com/forecast/CHXX0044_c.html
+        </link>
+
+        <description>
+			Yahoo! Weather for Hangzhou, CN
+        </description>
+
+        <language>
+			en-us
+        </language>
+
+        <lastBuildDate>
+			Mon, 07 Apr 2014 10:59 pm CST
+        </lastBuildDate>
+
+        <ttl>
+			60
+        </ttl>
+
+        <yweather:location
+            city="Hangzhou"
+            country="China"
+            region="" />
+
+        <yweather:units
+            distance="km"
+            pressure="mb"
+            speed="km/h"
+            temperature="C" />
+
+        <yweather:wind
+            chill="17"
+            direction="230"
+            speed="3.22" />
+
+        <yweather:atmosphere
+            humidity="72"
+            pressure="1015.92"
+            rising="0"
+            visibility="7" />
+
+        <yweather:astronomy
+            sunrise="5:40 am"
+            sunset="6:19 pm" />
+
+        <image>
+
+            <title>
+				Yahoo! Weather
+            </title>
+
+            <width>
+				142
+            </width>
+
+            <height>
+				18
+            </height>
+
+            <link>
+				http://weather.yahoo.com
+            </link>
+
+            <url>
+				http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+            </url>
+        </image>
+
+        <item>
+
+            <title>
+				Conditions for Hangzhou, CN at 10:59 pm CST
+            </title>
+
+            <geo:lat>
+				30.25
+            </geo:lat>
+
+            <geo:long>
+				120.17
+            </geo:long>
+
+            <link>
+				http://us.rd.yahoo.com/dailynews/rss/weather/Hangzhou__CN/*http://weather.yahoo.com/forecast/CHXX0044_c.html
+            </link>
+
+            <pubDate>
+				Mon, 07 Apr 2014 10:59 pm CST
+            </pubDate>
+
+            <yweather:condition
+                code="29"
+                date="Mon, 07 Apr 2014 10:59 pm CST"
+                temp="17"
+                text="Partly Cloudy" />
+
+            <description>
+<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/29.gif"/><br /><b>Current Conditions:</b><br />Partly Cloudy, 17 C<BR /><BR /><b>Forecast:</b><BR />Mon - Partly Cloudy. High: 19 Low: 13<br />Tue - Mostly Cloudy. High: 22 Low: 13<br />Wed - Partly Cloudy. High: 23 Low: 13<br />Thu - Partly Cloudy. High: 24 Low: 14<br />Fri - Showers. High: 20 Low: 17<br /><br /><a href="http://us.rd.yahoo.com/dailynews/rss/weather/Hangzhou__CN/*http://weather.yahoo.com/forecast/CHXX0044_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>]]></description>
+
+            <yweather:forecast
+                code="29"
+                date="7 Apr 2014"
+                day="Mon"
+                high="19"
+                low="13"
+                text="Partly Cloudy" />
+
+            <yweather:forecast
+                code="28"
+                date="8 Apr 2014"
+                day="Tue"
+                high="22"
+                low="13"
+                text="Mostly Cloudy" />
+
+            <yweather:forecast
+                code="30"
+                date="9 Apr 2014"
+                day="Wed"
+                high="23"
+                low="13"
+                text="Partly Cloudy" />
+
+            <yweather:forecast
+                code="30"
+                date="10 Apr 2014"
+                day="Thu"
+                high="24"
+                low="14"
+                text="Partly Cloudy" />
+
+            <yweather:forecast
+                code="11"
+                date="11 Apr 2014"
+                day="Fri"
+                high="20"
+                low="17"
+                text="Showers" />
+
+            <guid isPermaLink="false" >
+				CHXX0044_2014_04_11_7_00_CST
+            </guid>
+        </item>
+    </channel>
+
+</rss> <!-- fe464.global.media.gq1.yahoo.com Mon Apr 7 15:50:33 PST 2014 -->

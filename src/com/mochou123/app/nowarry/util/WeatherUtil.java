@@ -64,6 +64,8 @@ public class WeatherUtil {
 		String responseJson = WeatherUtil.doSimpleGet("http://weather.yahooapis.com/forecastrss?w=" + woeid.trim()
 				+ "&u=c");
 		Log.d(WeatherUtil.class.getName(), "weather:" + responseJson);
+		
+		
 		return "";
 	}
 
